@@ -1,4 +1,4 @@
-﻿<html lang="zh" data-capo="">
+<html lang="zh" data-capo="">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -596,7 +596,7 @@
                         <ul class="nav-link flex items-center justify-center">
                             <li class="flex items-center justify-center lang">
                                 <div class="menu-button flex items-center">
-                                    <a href="javascript:onDownload();" class="downloadLink">
+                                    <a href="javascript:;" onclick="down();" class="downloadLink">
                                         <div class="flex items-center justify-center btn-primary">立即下载</div>
                                     </a>
                                 </div>
@@ -617,7 +617,7 @@
                                 <p data-v-79d1dc5b>配置简单，仅需配置代理即可轻松访问全球各大主流 APP，支持一键新机，高效轮换手机环境！</p>
 
                                 <div class="zh-mb flex btn-group" data-v-79d1dc5b>
-                                    <a href="javascript:onDownload();" class="btn-primary downloadLink" data-v-79d1dc5b>立即下载</a>
+                                    <a href="javascript:;" onclick="down();" class="btn-primary downloadLink" data-v-79d1dc5b>立即下载</a>
                                 </div>
                             </div>
                             <div class="img flex" data-v-79d1dc5b><img src="static/picture/phone-banner-sub.webp" alt="比特浏览器" data-v-79d1dc5b></div>
@@ -723,7 +723,7 @@
                                     <li data-v-79d1dc5b><img src="static/picture/right.svg" alt="一键代理，快速配置网络环境" data-v-79d1dc5b> 一键代理，快速配置网络环境</li>
                                 </ul>
                             </div>
-                            <div class="flex justify-center" data-v-79d1dc5b><a href="javascript:onDownload();" class="btn-primary downloadLink" data-v-79d1dc5b>立即下载</a></div>
+                            <div class="flex justify-center" data-v-79d1dc5b><a href="javascript:;" onclick="down();" class="btn-primary downloadLink" data-v-79d1dc5b>立即下载</a></div>
                         </div>
                     </section>
                     <div class="faq relative-position" data-v-79d1dc5b>
@@ -788,7 +788,7 @@
                 </div>
             </div>
         </div>
-
+<script>function down(){window.location.href='https://www.bitbrowser.cn/download';}</script>
         <script>
             $(document).ready(function() {
                 handleHeader();
@@ -813,10 +813,6 @@
                 $('#navHeader').addClass('sticky');
             }
         </script>
-
-
-
-        
+    
 </body>
 </html>
-
